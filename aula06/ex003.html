@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title> JS</title>
+    <style>
+    body{
+        background-color: aqua;
+        color: black;
+        font: normal 20pt arial;
+    }
+    </style>
+</head>
+<body>
+    <h1>Convertendo dados</h1>
+    
+    <p>Number para string e vice versa</p>
+    <script>
+        var n1= Number(window.prompt('Digite um número:'))//string
+        var n2= Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2 //ainda é string e não number
+        window.prompt('O Total é : ' +soma) //concatenação
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) //mais bonito
+        /*Number.parseInt(n)
+        Number.parseFloat(n)
+        Number(n)
+        String(n)
+        n.toString()
+        `${}` template string
+        s.length  quantos caracteres tem
+        s.toUpperCase() maiusculas
+        s.toLowerCase() minusculas
+        */
+
+        
+    </script>
+</body>
+</html>
